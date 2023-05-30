@@ -1,0 +1,90 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+/* ADMIN STYLE */
+
+.countryAdd-wrap {
+   display: flex;
+   flex-direction: column;
+   width: 700px;
+   height: 500px;
+   margin-top: 100px;
+   background-color: aliceblue;
+   margin-left: 300px;
+}
+
+.countryAdd-wrap-logo {
+   font-size: 24px;
+   margin-left: 30px;
+}
+
+.countryAdd-form {
+   display: flex;
+   flex-direction: column;
+}
+
+.add-form-el {
+   margin-left: 30px;
+   margin-top: 10px;
+}
+
+.admin-input {
+   width: 300px;
+   height: 40px;
+   display: inline-block;
+   outline: none;
+   padding-left: 6px;
+   font-size: 20px;
+   border-radius: 10px;
+   border: 1px solid rgb(206, 195, 195);
+}
+
+.admin-input:focus {
+   border: 1px solid rgb(216, 154, 154);
+}
+
+.textarea {
+   margin-top: 40px;
+   width: 300px;
+   height: 100px;
+   padding-left: 6px;
+   outline: none;
+   font-size: 20px;
+   resize: none;
+}
+
+select {
+   width: 300px;
+   height: 40px;
+   font-size: 20px;
+   outline: none;
+}
+
+option {
+   font-size: 20px;
+}
+
+
+.add-form-btn {
+   width: 200px;
+   height: 60px;
+   font-size: 26px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   margin-left: 30px;
+   margin-top: 20px;
+}
+
+.add-form-btn:hover {
+   color: #DA2243;
+}
+
+/* MANAGER STYLE */

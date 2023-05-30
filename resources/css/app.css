@@ -1,0 +1,187 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+   width: 1920px;
+   height: 200px;
+   background-color: black;
+}
+
+.header-wrapOne {
+   display: flex;
+   justify-content: space-between;
+   width: 1310px;
+   height: 100px;
+   margin: 0 auto;
+   background-color: black;
+   align-items: center;
+
+}
+
+.header-wrapOne-logo {
+   display: flex;
+   font-size: 30px;
+
+   text-decoration: none;
+   color: white;
+}
+
+.header-btn {
+   font-size: 24px;
+   text-decoration: none;
+   color: white;
+}
+
+.header-btn:hover {
+   color: #DA2243;
+}
+
+.header-wrapOne-info {
+   display: flex;
+   width: 300px;
+   justify-content: space-between;
+}
+
+.header-wrapOne-info-el {
+   display: flex;
+   font-size: 16px;
+   align-items: center;
+   padding-top: 12px;
+}
+
+.header-wrapOne-search {
+   display: flex;
+   width: 200px;
+   justify-content: space-between;
+   background-color: rgb(213, 205, 197);
+}
+
+.header-wrapOne-search-input {
+   width: 160px;
+}
+
+
+.header-wrapOne-authWrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+
+.header-wrapOne-auth {
+   cursor: pointer;
+   text-decoration: none;
+   padding: 1rem 1.5rem;
+   background-color: beige;
+   display: inline-block;
+   color: black;
+   font-size: 20px;
+}
+
+.header-wrapTwo {
+   display: flex;
+   width: 1310px;
+   height: 100px;
+   background-color: black;
+   border-top: 1px solid white;
+   margin: 0 auto;
+}
+
+.header-WrapTwo-btn {
+   display: flex;
+   width: 300px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* СТИЛИ ПРОФИЛЯ */
+
+.profile-wrap {
+   display: flex;
+   flex-direction: column;
+   width: 800px;
+   height: 500px;
+   background-color: rgb(211, 229, 229);
+   margin-left: 300px;
+}
+
+.profile-wrap-el {
+   font-size: 20px;
+   padding-top: 10px;
+   border-bottom: 1px solid black;
+   width: 300px;
+}
+
+.profile-wrap-btn {
+   width: 160px;
+   height: 60px;
+   font-size: 22px;
+   color: black;
+   text-decoration: none;
+   padding-top: 20px;
+}
